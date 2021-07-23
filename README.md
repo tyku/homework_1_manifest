@@ -12,4 +12,7 @@ Health:
 ```
 curl --location --request GET 'http://arch.homework/otusapp/artem/health
 ```
-
+Others: 
+```
+curl --location --request GET 'http://arch.homework/otusapp/artem/someurl
+```
