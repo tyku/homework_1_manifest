@@ -24,10 +24,3 @@ spec:
                port: 8000
              initialDelaySeconds: 3
              periodSeconds: 3
-           readinessProbe:
-             exec:
-               command:
-                 - cat
-                 - /tmp/healthy
-             initialDelaySeconds: 5
-             periodSeconds: 5
